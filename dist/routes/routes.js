@@ -10,6 +10,11 @@ var _global = _interopRequireDefault(require("../model/global"));
 
 var rutas = (0, _express.Router)(); //const Task=require('../model/global');
 
+rutas.get("/", function (req, res, next) {
+  res.send({
+    message: "Status correcto"
+  });
+});
 rutas.get("/viewmessages", function _callee(req, resp, next) {
   var data;
   return _regenerator["default"].async(function _callee$(_context) {
