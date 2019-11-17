@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../server/configuration/config.js"],"names":["module","exports","cadena"],"mappings":";;AAAAA,MAAM,CAACC,OAAP,GAAe;AACXC,EAAAA,MAAM,EAAC;AADI,CAAf","sourcesContent":["module.exports={\r\n    cadena:\"mongodb+srv://gouser2:1234@cluster0-bzauq.mongodb.net/Chatexample?retryWrites=true&w=majority&authSource=admin\"\r\n}"],"file":"config.js"}
