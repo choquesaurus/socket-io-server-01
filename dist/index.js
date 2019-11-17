@@ -94,7 +94,7 @@ function () {
   }, {
     key: "start",
     value: function start() {
-      this.http.listen(6549 || process.env.PORT, function () {
+      this.http.listen(process.env.PORT || 5000, function () {
         console.log('server is running');
       });
     }
